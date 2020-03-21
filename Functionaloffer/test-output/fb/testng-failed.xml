@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [fb]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="fb_chrome_login(failed)">
+    <parameter name="Browser" value="firefox"/>
+    <classes>
+      <class name="co.xml.tests.Login_Function_Test">
+        <methods>
+          <include name="set_up"/>
+          <include name="tear_down"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- co.xml.tests.Login_Function_Test -->
+    </classes>
+  </test> <!-- fb_chrome_login(failed) -->
+</suite> <!-- Failed suite [fb] -->

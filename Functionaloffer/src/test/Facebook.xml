@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "fb" parallel = "tests" thread-count = "2">
+<test name = "fb_chrome_login">
+<parameter name = "Browser" value = "chrome"></parameter>
+<classes>
+<class name = "co.xml.tests.Login_Function_Test"></class>
+</classes>
+</test>
+
+<test name = "fb_firefox_login">
+<parameter name = "Browser" value = "firefox"></parameter>
+<classes>
+<class name = "co.xml.tests.Login_Function_Test"></class>
+</classes>
+</test>
+
+
+<test name = "fb_firefox_logintestoninternetexplore">
+<parameter name = "Browser" value = "internetexplore"></parameter>
+<classes>
+<class name = "co.xml.tests.Login_Function_Test"></class>
+</classes>
+</test>
+
+
+
+
+
+</suite>

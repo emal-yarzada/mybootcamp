@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Adhock">
+<test name = "Login">
+<parameter name="URL" value = "https://facebook.com"></parameter>
+<parameter name = "Browser" value = "chrome"></parameter>
+<classes>
+<class name = "co.xml.tests.Login_Function.Test"></class>
+<!--  <class name = "NewTest.NewTest"></class>-->
+
+</classes>
+</test>
+</suite>

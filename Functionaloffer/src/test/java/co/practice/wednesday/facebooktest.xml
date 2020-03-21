@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="FB_login">
+	<test name="FB_login_Testonfirefox">
+	<parameter name="browser" value="firefox"></parameter>
+	<parameter name="URL" value="https://facebook.com"></parameter>
+		<classes>
+			<class name="co.practice.wednesday.Facebook_Login_Test">
+			</class>
+
+		</classes>
+</test>
+
+
+	<test name="FB_login_Testchrome">
+	<parameter name="browser" value="chrome"></parameter>
+	<parameter name="URL" value="https://facebook.com"></parameter>
+		<classes>
+			<class name="co.practice.wednesday.Facebook_Login_Test">
+			</class>
+
+		</classes>
+</test>
+
+</suite>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FB_login]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FB_login_Testonfirefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="URL" value="https://google.com"/>
+    <classes>
+      <class name="co.practice.wednesday.Facebook_Login_Test">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="f"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- co.practice.wednesday.Facebook_Login_Test -->
+    </classes>
+  </test> <!-- FB_login_Testonfirefox(failed) -->
+  <test thread-count="5" name="FB_login_Testchrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="URL" value="https://google.com"/>
+    <classes>
+      <class name="co.practice.wednesday.Facebook_Login_Test">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="f"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- co.practice.wednesday.Facebook_Login_Test -->
+    </classes>
+  </test> <!-- FB_login_Testchrome(failed) -->
+</suite> <!-- Failed suite [FB_login] -->
